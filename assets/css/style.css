@@ -1,13 +1,5 @@
 /* 0.1 */
 
-@font-face {
-  font-family: 'Kelsi';
-  font-weight: 400;
-  font-display: swap;
-  src: url('/assets/fonts/Kelsi-Regular.otf');
-  font-style: normal;
-}
-
 .leaflet-popup-content-wrapper {
 	box-shadow: none;
 	-webkit-border-radius: 0px;
@@ -197,7 +189,9 @@ div.side-list {
 }
 
 .count-highlight {
-	font-family: 'Kelsi';
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
 	color: #53AED7;
 	font-size: 18px;
 	text-shadow: 0px 1px 1px #fff;
